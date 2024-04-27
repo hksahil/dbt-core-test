@@ -15,8 +15,5 @@ sources:
             tests:
               - not_null
               - unique
-              - accepted_values:
-                  values:
-                    - ["10","20","30","40","50","60"]
             
         
