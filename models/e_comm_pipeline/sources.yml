@@ -1,0 +1,19 @@
+sources:
+  - name: First Ecomm Pipeline
+    description: "This is made by @Sahil . It is for MKTG Team to calculate sales"
+    database: E_COMMERCE_DB
+    schema: E_COMMERCE_SCHEMA
+    tables:
+      - name: DIM_CUST
+        description: Table for Customers detais/n 1 row for 1 customer. /N Mantained by @Sahil
+      - name: DIM_PRODUCTS
+      - name: DIM_PRODUCT_DETAILS
+      - name: FACT_ORDERS_2023
+      - name: FACT_ORDERS_2024
+        columns:
+          - name: ORDER_ID
+            tests:
+              - not_null
+              - unique
+            
+        
